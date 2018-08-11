@@ -1,0 +1,23 @@
+@import './colors';
+@import './mixings';
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+p {
+    margin: 0;
+    color: $black;
+}
+
+.bloco {
+   @include bloco($black);
+}
+
+.bloco-2 {
+    @include bloco($white);
+}
